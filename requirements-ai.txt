@@ -1,0 +1,14 @@
+# Optional local vision extras (no API keys, no cloud calls):
+#   pip install -r requirements-ai.txt
+#
+# rembg brings the ONNX silueta/u2net model used for real-photo backgrounds.
+# OpenCV provides the Haar cascade used to centre card avatars on the face.
+# The base app still installs and runs with requirements.txt alone.
+# rembg downloads its light silueta model on first use into
+# %USERPROFILE%\.rembg\models\silueta\silueta.onnx.
+rembg>=2.0
+onnxruntime>=1.20
+scipy>=1.10
+# OpenCV 5 dropped the bundled Haar cascade classifier/data used by the
+# face-centred avatar crop, so keep the 4.x line here.
+opencv-python-headless>=4.8,<5

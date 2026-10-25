@@ -1,0 +1,187 @@
+{
+  "items": [
+    {
+      "id": "sunglasses",
+      "name": "大佬墨镜",
+      "category": "脸上有光",
+      "slot": "face",
+      "file": "sunglasses.png",
+      "z": 40,
+      "description": "戴上后自动获得“这个 bug 我罩的”气场。",
+      "mount": "face",
+      "fit": 1.0991,
+      "offset": [
+        0.0,
+        0.0134
+      ]
+    },
+    {
+      "id": "cat_ears",
+      "name": "猫猫耳朵",
+      "category": "头上长草",
+      "slot": "head_top",
+      "file": "cat_ears.png",
+      "z": 36,
+      "description": "喵？不喵，是猛男。",
+      "mount": "head_top",
+      "fit": 1.0629,
+      "offset": [
+        0.002,
+        -0.1087
+      ]
+    },
+    {
+      "id": "pink_wig",
+      "name": "猛男粉双马尾",
+      "category": "头上长草",
+      "slot": "head_top",
+      "file": "pink_wig.png",
+      "z": 35,
+      "description": "颜色越粉，写代码越狠。",
+      "mount": "head_top",
+      "fit": 1.2854,
+      "offset": [
+        0.001,
+        0.3805
+      ]
+    },
+    {
+      "id": "bald",
+      "name": "祖传光头套",
+      "category": "头上长草",
+      "slot": "head_top",
+      "file": "bald.png",
+      "z": 34,
+      "description": "变强是有代价的。戴上它，CPU 都凉快了。",
+      "mount": "head_top",
+      "fit": 1.0275,
+      "offset": [
+        0.0,
+        0.0764
+      ]
+    },
+    {
+      "id": "halo",
+      "name": "卷王光环",
+      "category": "头上长草",
+      "slot": "head_top",
+      "file": "halo.png",
+      "z": 38,
+      "description": "只有绩点上 4.0 的人才能看到……骗你的。",
+      "mount": "head_top",
+      "fit": 0.8346,
+      "offset": [
+        -0.002,
+        -0.1303
+      ]
+    },
+    {
+      "id": "witch_hat",
+      "name": "魔女帽",
+      "category": "头上长草",
+      "slot": "head_top",
+      "file": "witch_hat.png",
+      "z": 42,
+      "description": "灰之魔女的旅行标配，戴上就想出门。",
+      "mount": "head_top",
+      "fit": 0.9724,
+      "offset": [
+        0.0,
+        -0.0033
+      ]
+    },
+    {
+      "id": "milktea_hold",
+      "name": "手捧奶茶",
+      "category": "手里有货",
+      "slot": "hand",
+      "file": "milktea.png",
+      "z": 45,
+      "description": "论文可以明天写，奶茶必须现在喝。",
+      "mount": "hand",
+      "fit": 0.85,
+      "offset": [
+        0.0,
+        0.02
+      ]
+    }
+  ],
+  "foods": [
+    {
+      "id": "drumstick",
+      "name": "香喷喷鸡腿",
+      "file": "drumstick.png",
+      "hunger": 34,
+      "energy": 8,
+      "anger": -4,
+      "description": "宿舍硬通货，谁见了都走不动道。",
+      "mount": "mouth",
+      "fit": 1.15,
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "milktea",
+      "name": "全糖加冰奶茶",
+      "file": "milktea.png",
+      "hunger": 18,
+      "energy": 16,
+      "anger": -3,
+      "description": "论文可以明天写，奶茶必须现在喝。",
+      "mount": "mouth",
+      "fit": 1.15,
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "noodles",
+      "name": "熬夜泡面",
+      "file": "noodles.png",
+      "hunger": 28,
+      "energy": 4,
+      "anger": 0,
+      "description": "凌晨一点的宿舍之魂。",
+      "mount": "mouth",
+      "fit": 1.15,
+      "offset": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "chili",
+      "name": "魔鬼辣条",
+      "file": "chili.png",
+      "hunger": 6,
+      "energy": -6,
+      "anger": 8,
+      "description": "伤害不大，侮辱性极强。谨慎投喂。",
+      "mount": "mouth",
+      "fit": 1.15,
+      "offset": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "props": {
+    "book": {
+      "name": "课本",
+      "file": "book.png",
+      "mount": "hand",
+      "fit": 0.95,
+      "offset": [
+        0.0,
+        -0.02
+      ]
+    }
+  },
+  "canvas": [
+    360,
+    540
+  ]
+}

@@ -1,0 +1,27 @@
+; Deskling Godot 4 render shell.
+; Run from the Python side with: python -m engine.bridge --character <folder>
+; The Python controller writes engine_state.json; this project only paints it.
+config_version=5
+
+[application]
+
+config/name="Deskling Godot Renderer"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.2", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=360
+window/size/viewport_height=540
+window/size/resizable=false
+window/size/borderless=true
+window/size/transparent=true
+window/size/always_on_top=true
+window/per_pixel_transparency/allowed=true
+window/energy_saving/keep_screen_on=false
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0, 0, 0, 0)

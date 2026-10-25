@@ -1,0 +1,264 @@
+{
+  "name": "阿宅",
+  "slug": "azhai",
+  "subtitle": "后排摸鱼冠军",
+  "order": 1,
+  "scale": 0.88,
+  "temper": 1.15,
+  "accent": "#7B68EE",
+  "canvas": [
+    360,
+    540
+  ],
+  "head_rect": [
+    0.14,
+    0.025,
+    0.72,
+    0.46
+  ],
+  "body_rect": [
+    0.15,
+    0.48,
+    0.7,
+    0.5
+  ],
+  "mouth": [
+    0.5,
+    0.4
+  ],
+  "layers": {
+    "body": "body.png",
+    "walk": "body_walk.png",
+    "dangle": "body_dangle.png"
+  },
+  "parts": {
+    "leg_left": "parts/leg_left.png",
+    "leg_right": "parts/leg_right.png",
+    "arm_left": "parts/arm_left.png",
+    "arm_right": "parts/arm_right.png",
+    "torso": "parts/torso.png"
+  },
+  "rig": {
+    "pivots": {
+      "torso": [
+        0.5,
+        0.775
+      ],
+      "arm_left": [
+        0.3333,
+        0.5481
+      ],
+      "arm_right": [
+        0.6667,
+        0.5481
+      ],
+      "leg_left": [
+        0.4194,
+        0.7778
+      ],
+      "leg_right": [
+        0.5806,
+        0.7778
+      ],
+      "head": [
+        0.5,
+        0.4556
+      ]
+    }
+  },
+  "expressions": {
+    "normal": "heads/normal.png",
+    "blink": "heads/blink.png",
+    "happy": "heads/happy.png",
+    "angry": "heads/angry.png",
+    "hit": "heads/hit.png",
+    "sleep": "heads/sleep.png",
+    "eat": "heads/eat.png",
+    "sad": "heads/sad.png",
+    "smug": "heads/smug.png"
+  },
+  "lines": {
+    "greet": [
+      "我是阿宅，后排摸鱼冠军。以后就在你桌面混了。",
+      "新窝不错，就是有点反光。"
+    ],
+    "file_eat": [
+      "这文件……嘎嘣脆。",
+      "你的作业味道不错，下次还做这个。",
+      "吞了，别找我要啊。"
+    ],
+    "spit": [
+      "呸！这玩意儿也能叫饭？",
+      "你喂我吃垃圾文件？良心呢？",
+      "这个卡路里不对，退货。"
+    ],
+    "too_big": [
+      "这文件也太大了吧，我嘴小！",
+      "想撑死我啊？"
+    ],
+    "hungry": [
+      "肚子在抗议了，投喂一下？",
+      "饭！饭！饭！"
+    ],
+    "study": [
+      "行吧，陪你学一会儿。",
+      "学霸模式启动，虽然只管五分钟。"
+    ],
+    "wake": [
+      "嗯？开饭了吗？",
+      "我梦见自己成了大佬，然后你把我戳醒了。"
+    ],
+    "poke": [
+      "喂喂喂，代码可以乱，脸不能乱戳！",
+      "再戳我就把你的 bug 全塞回去。",
+      "你点我干嘛？我脸上有 IDE 吗？",
+      "别戳了，我刚刚才把头发捋顺。",
+      "嘶——你当我是回车键啊？"
+    ],
+    "pat": [
+      "唔……再摸一下也不是不行。",
+      "这不是摸头，这是精神损失费。",
+      "手法还行，给你打八分。",
+      "呼噜……谁、谁打呼噜了？"
+    ],
+    "drag": [
+      "啊啊啊我恐高！放我下来！",
+      "你拎猫呢？我是纸片人，会飘的！",
+      "救命——室友谋杀案现场！"
+    ],
+    "drop": [
+      "哎哟！我的纸片腰！",
+      "你完了，我已经记在小本本上了。",
+      "地板挺凉快，谢谢你了。"
+    ],
+    "feed": [
+      "这鸡腿……有点东西。",
+      "谢谢室友，再来一份。",
+      "我先声明，这不是我主动要吃的。"
+    ],
+    "sleep": [
+      "别吵，我在梦里写代码……",
+      "晚安，bug 留给明天的我。",
+      "敢弄醒我，后果自负。"
+    ],
+    "rage": [
+      "你成功惹毛了一个有键盘的纸片人！",
+      "今天不是你死就是你电脑死！",
+      "鼠标借我用三秒！"
+    ],
+    "work": [
+      "又在卷？键盘都快冒烟了。",
+      "写吧写吧，我负责在旁边监工。",
+      "IDE 开了这么久，bug 修完了吗？"
+    ],
+    "play": [
+      "又在摸鱼？带我一个！",
+      "说好的学习呢？我截图了啊。",
+      "好好好，游戏比我重要是吧。"
+    ],
+    "idle": [
+      "人生真是寂寞如雪。",
+      "今天也是不想写代码的一天。",
+      "我听见你鼠标在抖。",
+      "要不，去食堂？"
+    ],
+    "pat_all": [
+      "好啦好啦，都要摸是吧。",
+      "排队排队，一个一个来。"
+    ]
+  },
+  "starting_accessories": [],
+  "bust_mode": false,
+  "voice_gain": 0.8,
+  "notes": "把同学的照片按同一张 360x540 画布抠图分层，替换本文件夹中的 PNG 即可。",
+  "motion": {
+    "idle": {
+      "breath_speed": 1.45,
+      "breath_bob": 2.6,
+      "breath_scale": 0.006,
+      "breath_width": 0.0025,
+      "sway": 0.85,
+      "blink_interval": [
+        2.6,
+        6.0
+      ],
+      "blink_duration": 0.13,
+      "anchor_bob_hz": 1.3,
+      "anchor_bob": 1.2
+    },
+    "tap": {
+      "duration": 0.15,
+      "width": 0.05,
+      "height": 0.05
+    },
+    "land": {
+      "squash": 0.11,
+      "min": 0.015
+    },
+    "combo": {
+      "threshold": 3,
+      "window": 0.9,
+      "cooldown": 1.8,
+      "mark_seconds": 1.25,
+      "angry_seconds": 2.2
+    },
+    "sleep": {
+      "breath_speed": 1.55,
+      "breath_scale": 0.012,
+      "breath_width": 0.0035
+    },
+    "fall": {
+      "tilt": 10.0,
+      "gain": 0.014,
+      "sway": 1.1
+    },
+    "drag": {
+      "tilt_gain": 0.012,
+      "tilt_max": 10.0,
+      "tilt_damping": 1.0,
+      "bob_speed": 1.15,
+      "bob": 2.2,
+      "panic_expression": "hit"
+    }
+  },
+  "rage_threshold": 99.5,
+  "mount_points": {
+    "head_top": {
+      "point": [
+        0.5,
+        0.14
+      ],
+      "width": 0.7056
+    },
+    "face": {
+      "point": [
+        0.5,
+        0.3102
+      ],
+      "width": 0.6192
+    },
+    "mouth": {
+      "point": [
+        0.5,
+        0.4
+      ],
+      "width": 0.18
+    },
+    "hand": {
+      "point": [
+        0.5,
+        0.63
+      ],
+      "width": 0.294
+    }
+  },
+  "system": false,
+  "posture": "stand",
+  "poses": {
+    "idle": "body.png",
+    "sit": "body.png",
+    "walk_left": "body_walk.png",
+    "walk_right": "body_walk.png",
+    "drag": "body_dangle.png"
+  }
+}

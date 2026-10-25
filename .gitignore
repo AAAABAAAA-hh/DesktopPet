@@ -1,0 +1,42 @@
+# Python bytecode / test caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+
+# Local virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE / editor metadata
+.vscode/
+.idea/
+.vs/
+*.swp
+
+# Local runtime preferences, logs and generated data
+data/*
+!data/.gitkeep
+data/settings.json
+data/deskling.log
+*.log
+deskling.log
+screenshots/_*
+*.lnk
+
+# Build / packaging artifacts
+build/
+dist/
+*.spec
+.godot/
+godot_runtime/.godot/
+*.zip
+
+# DSH workspace recovery marker
+.acl-recovery/
