@@ -1,4 +1,4 @@
-# Deskling / 桌面宠物
+# DesktopPet / 桌面宠物
 
 **Archived prototype · 已归档停更，本项目基于ai辅助开发。**
 
