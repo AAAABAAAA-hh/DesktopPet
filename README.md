@@ -46,7 +46,8 @@ main.py
 ```
 
 ### 已实现要点
-
+- ##真人照片导入：rembg/silueta 本地去底、OpenCV GrabCut 兜底、Haar 人脸居中 256×256 头像。
+- 
 - 无边框透明置顶窗口，透明区域点击穿透。
 - 1:1 原始头身比例绘制；不再有运行时大头/分体缩放。
 - 呼吸、眨眼（仅手工表情切片）、±6° 头部惯性、点击约 4% 果冻压缩。
@@ -54,7 +55,6 @@ main.py
 - 多姿态：`idle.png` / `sit.png` / `drag.png`，缺图回退 `body.png`。
 - 换装仅对带 `costumes/` 专属套件的角色开放；自定义单图角色不显示换装入口，不加载通用假发/墨镜。
 - 可选多姿态、表情切片、关节图层、语音与挂件锚点。
-- 真人照片导入：rembg/silueta 本地去底、OpenCV GrabCut 兜底、Haar 人脸居中 256×256 头像。
 - Delaunay 三角剖分 + `Hair`/`Skirt` 次级骨骼，输出 `skeleton.json`。
 - 可选 Godot 4 透明渲染桥接（`godot_runtime/` + `petapp/godot_bridge.py`）；未安装时自动回退 PyQt。
 
