@@ -1,12 +1,17 @@
-# Deskling / 桌角同学
+# Deskling / 桌面宠物
 
-**Archived prototype · 已归档停更**
+**Archived prototype · 已归档停更，本项目基于ai辅助开发。**
 
 一个基于 **PyQt6** 的 Windows 透明桌面伴侣原型：无边框、透明背景、桌面置顶、透明区域鼠标穿透。角色会呼吸、眨眼、被拎起、自由落体、在任务栏上方小跳漫游，也会对摸头、投喂、戳脸和前台应用作出反应。
 
 项目以“本地、可替换、可二创”为目标：所有角色都是透明 PNG 图层，运行时不在脸上绘制任何几何色块；预设角色素材与公共挂件均可直接替换。
 
 ![桌面预览](screenshots/preview.png)
+
+<div align="center">
+  <img src="screenshots/elaina_1to1.png" width="300" alt="伊蕾娜 桌面伴侣预览"/>
+  <p><em>默认预置角色：灰之魔女·伊蕾娜 (1:1 原生比例渲染)</em></p>
+</div>
 
 > 这是个人原型项目，已停止功能迭代。代码保留完整可运行状态，欢迎 Fork 做自己的桌面宠物、宿舍整活工具或 Godot 迁移实验。
 >
